@@ -1,14 +1,12 @@
 #This is a comment and would be ignored.
 #Python Programming Practice
 #Author : Muddassir Nazir
-import math
-print ("Hello")
-print (math.sqrt(144))
 
-a, b = 	0, 1
+print 'I am a python program'
+name = raw_input("What is your name ?")
+print 'Hello..' + name
 
-print (a)
-print (b)
+
 
 
 
