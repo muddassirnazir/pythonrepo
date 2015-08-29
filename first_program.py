@@ -13,6 +13,13 @@ print 'Hello..' + name
 var = 2 + 2
 print var
 
+#Strings
+string = '4'
+print string*4
+print int(string)*4
+
+#Simple for loop
+for counter in range(0,10):	print counter
 
 
 
