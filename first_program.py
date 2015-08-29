@@ -21,10 +21,6 @@ print int(string)*4
 #Simple for loop
 for counter in range(0,10):	print counter
 
-
-
-
-
-
-
-
+#Lists
+week = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+print len(week)
