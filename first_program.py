@@ -27,5 +27,3 @@ for counter in range(0,10):	print counter
 week = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 print week
 print len(week)
-
-
