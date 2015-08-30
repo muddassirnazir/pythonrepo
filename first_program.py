@@ -1,7 +1,7 @@
-#This is a comment and would be ignored.
 #Python Programming Practice
-#Author : Muddassir Nazir
+#Author: Muddassir Nazir
 
+#This is a comment and would be ignored.
 #Printing a message
 print 'I am a python program'
 
@@ -25,5 +25,7 @@ for counter in range(0,10):	print counter
 
 #Lists
 week = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+print week
 print len(week)
+
 
