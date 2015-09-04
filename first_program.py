@@ -4,6 +4,7 @@
 #This is a comment and would be ignored.
 #Printing a message
 print 'I am a python program'
+print "Don't do this"
 
 #Taking input from the keyboard
 name = raw_input("What is your name ?")
