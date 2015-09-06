@@ -10,4 +10,12 @@ for cntr in range(0,12):    print '%s has %d days' %(month[cntr],DaysOfMonth[cnt
 st = 'He said, "Don\'t worry"'
 """
 string = "This is a string and I am gonna split it"
-print string.split(' ')
+print string.split('')
+
+x = 5
+if x == 1:
+    print "x is 1"
+elif x < 6:
+    print "x is less than 6"
+else:
+    print     
