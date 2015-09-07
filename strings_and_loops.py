@@ -12,12 +12,12 @@ st = 'He said, "Don\'t worry"'
 
 x = 3
 
-while x != 0:	
+while x != 0:
 	print(x)
 	x = x - 1
 	print("Wow, we've counted x down, and now it equals", x)
 	print "And now the loop has ended."
-	
+
 if x == 10:
 	print "x is 10"
 elif x < 5:
@@ -31,7 +31,7 @@ print "He said, \"Don\'t worry\""
 
 count = 10
 while count >= 1:
-	count = count - 1 
+	count = count - 1
 	print count
 
 loop = 1
