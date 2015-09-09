@@ -12,14 +12,15 @@ print 'Hello..' + name
 
 #Storing data in a variable
 var = 2 + 2
-print var
+# print var
 
 #Strings
 string = '4'
 print string*4
 print int(string)*4
+
 var = 'A sentence'
-print [5]
+print var[2:5]
 
 #Simple for loop
 for counter in range(0,10):	print counter
