@@ -1,4 +1,5 @@
 #Using random module
+
 import random
 for x in range(0,10):
     print random.randint(0,55)
@@ -15,3 +16,9 @@ def my_function():
     print "functions reduce the chances of error as we are making our code readable and clutter free"
 
 my_function()
+
+def TopOrBottom(width):
+# width is total width of returned line
+    return '%s%s%s' %('+',('=' * (width-2)),'+')
+
+print TopOrBottom(40)
