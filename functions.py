@@ -13,7 +13,7 @@ for cntr in range(0,14):
 def my_function():
     print "Hello...I have defined a function and I am gonna call it my_function and I am gonna call it to print this sentence"
     print "We can use functions to reduce the repetitive tasks"
-    print "functions reduce the chances of error as we are making our code readable and clutter free"
+    print "functions reduce the chances of error as we are making our code more readable"
 
 my_function()
 
