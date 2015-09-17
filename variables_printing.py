@@ -1,4 +1,4 @@
-my_name = 'Muddassir Nazir'
+my_name = 'Muddassir'
 my_age = 24
 my_weight = 63
 my_eyes = 'Black'
