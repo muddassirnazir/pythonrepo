@@ -18,6 +18,10 @@ total = 0
 for cntr in range(0,3):
     print Fmt(items[cntr][0],30,items[cntr][1],10)
     total += items[cntr][1]
+    tax = ((total * 12.5)/100)
+    net_payable = (total + tax)
 print TopOrBottom(40)
 print Fmt('Total',30,total,10)
+print Fmt('Tax',30,tax,10)
+print Fmt('net_payable',30,net_payable,10)
 print TopOrBottom(40)
