@@ -11,7 +11,6 @@ def Fmt(val1,leftbit,val2,rightbit):
     part2 = '%.2f' % val2
     return '%s%s%s%s' % ('| ',val1.ljust(leftbit-2,' '),part2.rjust(rightbit-2,' '),' |')
 
-
 items = [['Item_1', 1.75], ['Item_2', 2.50], ['Item_3', 3.50], ]
 print TopOrBottom(40)
 total = 0
