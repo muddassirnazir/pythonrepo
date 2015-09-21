@@ -9,3 +9,20 @@ class Dog():
         self.age = dogage
         self.Hungry = False
         self.Tired = False
+
+def Eat(self):
+    if self.Hungry:
+        print 'Yum Yum...Num Num'
+        self.Hungry = False
+    else:
+        print 'Sniff Sniff...Not Hungry'
+
+def Sleep(self):
+    print 'ZZZZZZZZZZZ.......'
+    self.Tired = False
+
+Beagle = Dog('Archie','Brown','Short','Chubby','Grumpy',12)
+print 'My name is %s' % Beagle.name
+print 'My color is %s' % Beagle.color
+print 'My mood is %s ' % Beagle.mood
+print 'I am hngry = %s ' % Beagle.Hungry
