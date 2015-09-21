@@ -21,6 +21,16 @@ def Sleep(self):
     print 'ZZZZZZZZZZZ.......'
     self.Tired = False
 
+def Bark(self):
+    if self.mood == 'Grumpy':
+        print 'GRRRRR...Woof Woof'
+    elif self.mood == 'Laid Back':
+        print 'Yawn...ok...Woof'
+    elif self.mood == 'Crazy':
+        print 'Bark Bark Bark Bark Bark Bark Bark'
+    else:
+        print 'Woof Woof'
+
 Beagle = Dog('Archie','Brown','Short','Chubby','Grumpy',12)
 print 'My name is %s' % Beagle.name
 print 'My color is %s' % Beagle.color
