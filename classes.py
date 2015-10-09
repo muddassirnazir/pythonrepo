@@ -1,3 +1,9 @@
+class MyClass:
+"""A simple example class"""
+i = 12345
+def f(self):
+return 'hello world'
+
 class Dog():
     def __init__(self,dogname,dogcolor,dogheight,dogbuild,dogmood,dogage):
     #here we setup the attributes of our dog
