@@ -18,3 +18,10 @@ point = 1 # odds must total to 1
 point -= win # remove odds of winning
 point -= lose # remove odds of losing
 print "first roll establishes a point", point
+
+
+# Compute line between two points.
+x1,y1 = 2,3 # point one
+x2,y2 = 6,8 # point two
+m,b = float(y1-y2)/(x1-x2), y1-float(y1-y2)/(x1-x2)*x1
+print "y=",m,"*x+",b
