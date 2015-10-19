@@ -14,7 +14,7 @@ lose += 1/36.0 # ways to roll 12
 print "first roll lose", lose
 
 # Compute the odds of rolling a point number (4, 5, 6, 8, 9 or 10)
-print = 1 # odds must total to 1
+point = 1 # odds must total to 1
 point -= win # remove odds of winning
 point -= lose # remove odds of losing
 print "first roll establishes a point", point
