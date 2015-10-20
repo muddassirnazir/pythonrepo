@@ -11,6 +11,11 @@ print complex(3,2)
 print bin(245)
 print math.pi
 
+sum, count = 0, 0
+average = float(sum)/count
+average = count != 0 and sum/count
+print average
+
 import random
 
 print random.choice(['red', 'blue', 'green'])

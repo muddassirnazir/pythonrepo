@@ -19,7 +19,6 @@ point -= win # remove odds of winning
 point -= lose # remove odds of losing
 print "first roll establishes a point", point
 
-
 # Compute line between two points.
 x1,y1 = 2,3 # point one
 x2,y2 = 6,8 # point two
