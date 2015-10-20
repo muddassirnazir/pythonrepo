@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 '''
 The break statement in Python terminates the current loop and resumes execution at the next statement, just like the traditional break found in C.
 The most common use for break is when some external condition is triggered requiring a hasty exit from a loop. The break statement can be used in
