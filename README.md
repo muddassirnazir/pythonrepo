@@ -1,4 +1,5 @@
 #Python Programming Practice
+#Version 2.7.10
 #Author : Muddassir Nazir
 
-You can simple programs, share code and knowledge for beginners. Practice some simple coding, get experience working with Github. I hope to reach the top someday.
+Practicing some simple coding, get experience working with Github.
