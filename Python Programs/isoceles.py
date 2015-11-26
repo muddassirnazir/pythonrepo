@@ -3,12 +3,10 @@
 #Logic : Two of the three sides are equal
 #Equilateral triangle is also be a isoceles
 print "First we have to enter sides of the triangle"
-a = raw_input("Enter the length of side a")
-b = raw_input("Enter the length of side b")
-c = raw_input("Enter the length of side c")
-a = int(a)
-b = int (b)
-c = int (c)
+a = int(raw_input("Enter the length of side a"))
+b = int(raw_input("Enter the length of side b"))
+c = int(raw_input("Enter the length of side c"))
+
 #Write a program to check sides of a triangle and tell what type of triangle it is.
 if a == b or b == c or c == a:
     print "The triangle is isoceles"
