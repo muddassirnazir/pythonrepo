@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 '''
 *
 **
@@ -11,8 +10,8 @@ n = int(raw_input("Enter the number of lines"))
 for n in range (1, n):
     print "*" * (n)
 
-'''
 *****
+'''
 ****
 ***
 **
