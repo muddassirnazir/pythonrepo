@@ -18,4 +18,4 @@ else:
 if ((a + b) ** 2) > (c ** 2) or ((b + c) ** 2) > (a ** 2) or ((c + a) ** 2) > (b ** 2):
     print "We have a right angled triangle"
 else:
-    print "No right angled"
+    print "Not right angled"
