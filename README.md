@@ -1,3 +1,3 @@
 #Python Programming Practice
-#Version 2.7.10
-#Author:Muddassir Nazir
+Python Version 2.7.10
+Muddassir Nazir
