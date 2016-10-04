@@ -7,8 +7,8 @@ assert condition
 assert condition , expression
 '''
 max= 0
-a = raw_input('Write a number \n')
-b = raw_input('Write some another number \n')
+a = input('Write a number \n')
+b = input('Write some another number \n')
 if a < b: max= b
 if b < a: max= a
 assert (max == a or max == b) and max >= a and max >= b
