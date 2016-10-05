@@ -1,6 +1,7 @@
 #Write a program to print 'Hello World'
 
-#!/usr/bin/env python
+#!/usr/bin/python3.5
+
 print ("Hello World")
 
 #Write a program to take two number as inputs and perform arithmetic operations on them.
