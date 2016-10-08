@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3.5
 #Enter the side lenghts first
 #Logic : Two of the three sides are equal
 #Equilateral triangle is also be a isoceles
