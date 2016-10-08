@@ -1,8 +1,7 @@
 class MyClass:
-"""A simple example class"""
-i = 12345
-def f(self):
-return 'hello world'
+	i = 12345
+	def f(self):
+		return 'hello world'
 
 class Dog():
     def __init__(self,dogname,dogcolor,dogheight,dogbuild,dogmood,dogage):
@@ -18,27 +17,27 @@ class Dog():
 
 def Eat(self):
     if self.Hungry:
-        print 'Yum Yum...Num Num'
+        print ('Yum Yum...Num Num')
         self.Hungry = False
     else:
-        print 'Sniff Sniff...Not Hungry'
+        print ('Sniff Sniff...Not Hungry')
 
 def Sleep(self):
-    print 'ZZZZZZZZZZZ.......'
+    print ('ZZZZZZZZZZZ.......')
     self.Tired = False
 
 def Bark(self):
     if self.mood == 'Grumpy':
-        print 'GRRRRR...Woof Woof'
+        print ('GRRRRR...Woof Woof')
     elif self.mood == 'Laid Back':
-        print 'Yawn...ok...Woof'
+        print ('Yawn...ok...Woof')
     elif self.mood == 'Crazy':
-        print 'Bark Bark Bark Bark Bark Bark Bark'
+        print ('Bark Bark Bark Bark Bark Bark Bark')
     else:
-        print 'Woof Woof'
+        print ('Woof Woof')
 
 Beagle = Dog('Archie','Brown','Short','Chubby','Grumpy',12)
-print 'My name is %s' % Beagle.name
-print 'My color is %s' % Beagle.color
-print 'My mood is %s ' % Beagle.mood
-print 'I am hngry = %s ' % Beagle.Hungry
+print ('My name is %s' % Beagle.name)
+print ('My color is %s' % Beagle.color)
+print ('My mood is %s ' % Beagle.mood)
+print ('I am hungry = %s ' % Beagle.Hungry)

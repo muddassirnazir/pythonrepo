@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3.5
 '''
 When a program is correct, all of the assertions are true no matter what inputs are provided. When a program has an error, at least one assertion winds
 up false for some combination of inputs. Python directly supports assertions through an assert statement.
