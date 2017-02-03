@@ -1,4 +1,4 @@
-#!/usr/bin/python3.5
+#!/usr/bin/python3
 
 # Compute the odds of winning on the first roll
 win = 0

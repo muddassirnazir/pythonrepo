@@ -1,6 +1,6 @@
 #Write a program to print 'Hello World'
 
-#!/usr/bin/python3.5
+#!/usr/bin/python3
 
 print ("Hello World")
 

@@ -1,4 +1,4 @@
-#!/usr/bib/python3.5
+#!/usr/bib/python3
 
 # Convert 8 C to F
 C=37.5
