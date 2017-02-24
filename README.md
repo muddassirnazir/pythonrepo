@@ -8,3 +8,5 @@ Python 3.4.3 (default, Nov 17 2016, 01:08:31)
 [GCC 4.8.4] on linux
 
 Muddassir Nazir
+
+"It’s not your code on Github that counts — it’s what other people say on Github about your code that counts."
