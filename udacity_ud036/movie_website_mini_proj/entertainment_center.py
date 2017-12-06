@@ -1,13 +1,9 @@
 import media
+import fresh_tomatoes
 
-toy_story = media.Movie("Toy Story", "A Story of a boy and his toys that come to life", "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg", "https://www.youtube.com/watch?v=KYz2wyBy3kc")
-print (toy_story.storyline)
-toy_story.show_trailer()
+avengers = media.Movie("The Avengers", "Superheroes unite to save the world", "https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg", "https://www.youtube.com/watch?v=eOrNdBpGMv8")
+spectre = media.Movie("Spectre", "A spy on a mission to fight a crime syndicate", "https://upload.wikimedia.org/wikipedia/en/c/c3/Spectre_poster.jpg", "https://www.youtube.com/watch?v=z4UDNzXD3qA")
+godfather = media.Movie("The Godfather", "A story of power, family and revenge", "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg", "https://www.youtube.com/watch?v=sY1S34973zA")
 
-avatar = media.Movie("Avatar", "A Marine on an Alien Planet", "https://en.wikipedia.org/wiki/Avatar_(2009_film)#/media/File:Avatar-Teaser-Poster.jpg", "https://www.youtube.com/watch?v=5PSNL1qE6VY")
-print (avatar.storyline)
-avatar.show_trailer()
-
-godfather = media.Movie("The Godfather", "A story of power, family and revenge", "https://en.wikipedia.org/wiki/The_Godfather#/media/File:Godfather_ver1.jpg", "https://www.youtube.com/watch?v=sY1S34973zA")
-print (godfather.storyline)
-godfather.show_trailer()
+movies = [avengers, spectre, godfather]
+fresh_tomatoes.open_movies_page(movies)
