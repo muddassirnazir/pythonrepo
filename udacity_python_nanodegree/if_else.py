@@ -1,8 +1,8 @@
 #First Example - uncomment lines or change values to test the code
 phone_balance = 7.62
 bank_balance = 104.39
-#phone_balance = 12.34
-#bank_balance = 25
+phone_balance = 12.34
+bank_balance = 25
 if phone_balance < 10:
     phone_balance += 10
     bank_balance -= 10
@@ -12,7 +12,7 @@ print(bank_balance)
 #Second Example
 
 #change the number to experiment!
-number = 145346334
+number = 13434633
 #number = 5 #3 sir
 if number % 2 == 0:
     print("The number " + str(number) + " is even.")
