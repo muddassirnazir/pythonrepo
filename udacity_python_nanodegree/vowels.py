@@ -7,7 +7,7 @@ vowel_count = prophecy_lower.count('a')
 vowel_count += prophecy_lower.count('e')
 vowel_count +=prophecy.count('i')
 vowel_count +=prophecy.count('o')
-vowel_count += prophecy.count('u') 
+vowel_count += prophecy.count('u')
 
 
 # Print the final count
