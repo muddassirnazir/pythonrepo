@@ -25,7 +25,7 @@ def draw_circle():
     angie.color("blue")
     angie.circle(100)
 
-def draw_triangle
+def draw_triangle():
     maggie = turtle.Turtle()
     maggie.shape("arrow")
     maggie.color("green")

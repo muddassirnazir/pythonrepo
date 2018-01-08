@@ -5,4 +5,4 @@
 shares = int( raw_input("shares: ") )
 price = float( raw_input("dollars: ") )
 price += float( raw_input("eights: ") )/8.0
-print "value", shares * price
+print ("value", shares * price)
